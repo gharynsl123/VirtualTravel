@@ -6,9 +6,10 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class Explore(
-    var name : String?,
-    var price : String?,
-    var photo : String?,
-    var desc: String?,
-    var locat: String?
+    var nameEx : String,
+    var priceEx : String,
+    var descEx : String,
+    var cateEx : String,
+    var locatEx : String,
+    var photoEx : String,
 ):Parcelable

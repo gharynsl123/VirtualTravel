@@ -25,12 +25,17 @@ class HomeFragment : Fragment() {
         binding = FragmentHomeBinding.inflate(inflater, container, false)
 
         bind.rvHome.apply {
+            setHasFixedSize(true)
             layoutManager = LinearLayoutManager(activity)
-            //Activkan yang di bawah ini jika sudah membuat value
-            /*adapter = HomeAdapeter(DataHome.)*/
+            adapter = HomeAdapeter(DataHome.listHome)
         }
 
         return bind.root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        binding = null
     }
 
 }

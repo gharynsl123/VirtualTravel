@@ -5,11 +5,11 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class Home(
-    var name: String?,
-    var info: String?,
-    var price: String?,
-    var photo: String?,
-    var desc: String?,
-    var locat: String?
+    var nameHom: String,
+    var infoHom: String,
+    var priceHom: String,
+    var descHom: String,
+    var locatHom: String,
+    var photoHom: Int
 
 ) : Parcelable

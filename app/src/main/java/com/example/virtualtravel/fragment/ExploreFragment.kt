@@ -23,13 +23,18 @@ class ExploreFragment : Fragment() {
         binding = FragmentExploreBinding.inflate(inflater, container, false)
 
         bind.rvExplore.apply {
+            setHasFixedSize(true)
             layoutManager = LinearLayoutManager(activity)
-            //Activkan yang di bawah ini jika sudah membuat value
-            /*adapter = ExploreAdapter(DataExplore.)*/
+            adapter = ExploreAdapter(DataExplore.listExplore)
 
         }
 
         return bind.root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        binding = null
     }
 
 }
