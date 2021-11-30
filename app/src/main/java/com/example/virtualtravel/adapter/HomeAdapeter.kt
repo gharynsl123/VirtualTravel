@@ -30,7 +30,7 @@ class HomeAdapeter(private val listHome: ArrayList<Home>) :
                 Glide.with(imgItem.context).load(photoHom).into(imgItem)
                 holder.itemView.setOnClickListener {
                     val intent = Intent(it.context, DetailHome::class.java)
-
+                    intent.putExtra(DetailHome.HOME_DATA, listHome[position])
                     it.context.startActivity(intent)
                 }
             }

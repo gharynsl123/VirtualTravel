@@ -17,8 +17,8 @@
         android:label="fragment_explore"
         tools:layout="@layout/fragment_explore" >
         <action
-            android:id="@+id/action_exploreFragment_to_detailExplore"
-            app:destination="@id/detailExplore" />
+            android:id="@+id/action_exploreFragment_to_detailHome"
+            app:destination="@id/detailHome" />
     </fragment>
 
     <fragment
@@ -35,9 +35,4 @@
         android:name="com.example.virtualtravel.Detail.DetailHome"
         android:label="activity_detail_home"
         tools:layout="@layout/activity_detail_home" />
-    <activity
-        android:id="@+id/detailExplore"
-        android:name="com.example.virtualtravel.Detail.DetailExplore"
-        android:label="activity_detail_explore"
-        tools:layout="@layout/activity_detail_explore" />
 </navigation>

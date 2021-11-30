@@ -6,20 +6,27 @@
         <entry key="app/src/main/res/drawable-v24/home_icon_foreground.xml" value="0.29794871794871797" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.29794871794871797" />
         <entry key="app/src/main/res/drawable/black_shadow_card.xml" value="0.29794871794871797" />
+        <entry key="app/src/main/res/drawable/button_card.xml" value="0.2861111111111111" />
         <entry key="app/src/main/res/drawable/home_icon_background.xml" value="0.29794871794871797" />
         <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.29794871794871797" />
+        <entry key="app/src/main/res/drawable/ic_baseline_explore_24.xml" value="0.125" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.29794871794871797" />
         <entry key="app/src/main/res/drawable/ic_round_home_24.xml" value="0.29794871794871797" />
-        <entry key="app/src/main/res/layout/activity_detail_home.xml" value="0.1721014492753623" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/drawable/white_shadow_card.xml" value="0.1984375" />
+        <entry key="app/src/main/res/layout/activity_detail_explore.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout/activity_detail_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_account.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_account.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_explore.xml" value="0.1766304347826087" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/row_item_explore.xml" value="0.335" />
         <entry key="app/src/main/res/layout/row_item_home.xml" value="0.335" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2864583333333333" />
         <entry key="app/src/main/res/menu/navdrawer_menu.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/home_icon.xml" value="0.125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/home_icon_round.xml" value="0.125" />
       </map>
     </option>
   </component>

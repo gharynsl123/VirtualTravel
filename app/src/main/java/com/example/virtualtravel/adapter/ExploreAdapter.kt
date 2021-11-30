@@ -3,9 +3,11 @@ package com.example.virtualtravel.adapter
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.virtualtravel.Detail.DetailExplore
+import com.example.virtualtravel.Detail.DetailHome
 import com.example.virtualtravel.data.Explore
 import com.example.virtualtravel.databinding.RowItemExploreBinding
 
@@ -28,6 +30,7 @@ class ExploreAdapter(private val listExplore: ArrayList<Explore>) :
                 Glide.with(imgExplore.context).load(photoEx).into(imgExplore)
                 holder.itemView.setOnClickListener {
                     val intent = Intent(it.context, DetailExplore::class.java)
+                    intent.putExtra(DetailExplore.EXPLORE_DATA, listExplore[position])
                     it.context.startActivity(intent)
                 }
             }

@@ -16,16 +16,16 @@ object DataHome {
         "Whiz Prime Hotel",
     )
     val infoHome = arrayOf(
-        "Open",
-        "Open",
-        "Open",
-        "Open",
+        "Available",
+        "Available",
+        "Available",
+        "Available",
         "Close",
-        "Open",
-        "Open",
-        "Open",
+        "Available",
+        "Available",
+        "Available",
         "Close",
-        "Open",
+        "Available",
     )
 
     val priceHome = arrayOf(
