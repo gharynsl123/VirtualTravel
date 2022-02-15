@@ -37,7 +37,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            tools:text="@tools:sample/full_names"
+            android:text="@tools:sample/full_names"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold"
