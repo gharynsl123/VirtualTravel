@@ -30,14 +30,14 @@
             android:layout_marginTop="96dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/gharyn" />
+            tools:src="@tools:sample/avatars" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="@string/stringName"
+            tools:text="@tools:sample/full_names"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold"
