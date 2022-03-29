@@ -15,8 +15,8 @@
         <entry key="app/src/main/res/drawable/white_shadow_card.xml" value="0.1984375" />
         <entry key="app/src/main/res/layout/activity_detail_explore.xml" value="0.2864583333333333" />
         <entry key="app/src/main/res/layout/activity_detail_home.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
-        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.375" />
         <entry key="app/src/main/res/layout/fragment_account.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_explore.xml" value="0.1766304347826087" />
